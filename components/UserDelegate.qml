@@ -58,7 +58,8 @@ Item {
         // Image takes priority, taking a full path to a file, if that doesn't exist we show an icon
         Image {
             id: face
-            source: wrapper.avatarPath
+            //source: wrapper.avatarPath
+            source: "../assets/kitty.jpg"
             sourceSize: Qt.size(faceSize, faceSize)
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
